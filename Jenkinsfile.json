@@ -5,12 +5,12 @@
     "cpu": "10m",
     "memory": "128Mi",
     "test": true,
-    "hostname": "croc-hunter.acs.az.estrado.io"
+    "hostname": "croc-hunter.xentaurs.com"
   },
   "container_repo": {
     "host": "quay.io",
-    "master_acct": "lachie83",
-    "alt_acct": "lachie83",
+    "master_acct": "artsn00p",
+    "alt_acct": "artsn00p",
     "jenkins_creds_id": "quay_creds",
     "repo": "croc-hunter",
     "dockeremail": ".",
