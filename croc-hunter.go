@@ -76,7 +76,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		commit = "not present"
 	}
 	if powered == "" {
-		powered = "deis"
+		powered = "jenkins"
 	}
 
 	fmt.Fprintf(w, html, hostname, release, commit, powered)
